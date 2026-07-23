@@ -315,7 +315,7 @@ The pipeline automatically generates summary plots under the `outputs/` director
 
 ### Velocity Profile
 
-![Velocity](C:\Users\ATHARVA\OneDrive\Pictures\Documents\Sunny\sensor_fusion\outputs\velocity plot.png)
+![Velocity]("C:\Users\ATHARVA\OneDrive\Pictures\Documents\Sunny\sensor_fusion\outputs\velocity plot.png")
 
 ---
 
