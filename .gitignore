@@ -5,7 +5,7 @@ __pycache__/
 .ipynb_checkpoints/
 data/
 *.bin
-outputs/
+# outputs/
 fused_*.csv
 *.png
 .DS_Store
