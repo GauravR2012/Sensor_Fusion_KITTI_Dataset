@@ -291,31 +291,31 @@ The pipeline automatically generates summary plots under the `outputs/` director
 
 ### Performance Summary
 
-![Performance Summary](outputs/Performance_Summary_Across_All_Drives.png)
+![Performance Summary](C:\Users\ATHARVA\OneDrive\Pictures\Documents\Sunny\sensor_fusion\outputs\All drives error.png)
 
 ---
 
 ### Trajectory Error Across Drives
 
-![Trajectory Error](outputs/All_drives_error.png)
+![Trajectory Error](C:\Users\ATHARVA\OneDrive\Pictures\Documents\Sunny\sensor_fusion\outputs\All drives error.png)
 
 ---
 
 ### ICP Fitness per Drive
 
-![ICP Fitness](outputs/ICP_Fitness_per_Drive.png)
+![ICP Fitness](C:\Users\ATHARVA\OneDrive\Pictures\Documents\Sunny\sensor_fusion\outputs\ICP Fitness per Drive.png)
 
 ---
 
 ### Per-frame Position Error vs GPS
 
-![Position Error](outputs/Performance Summary Across All Drives.png)
+![Position Error](C:\Users\ATHARVA\OneDrive\Pictures\Documents\Sunny\sensor_fusion\outputs\per_frame position error vs GPS.png)
 
 ---
 
 ### Velocity Profile
 
-![Velocity](outputs/velocity_plot.png)
+![Velocity](C:\Users\ATHARVA\OneDrive\Pictures\Documents\Sunny\sensor_fusion\outputs\velocity plot.png)
 
 ---
 
