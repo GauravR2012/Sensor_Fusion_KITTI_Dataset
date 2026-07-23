@@ -291,31 +291,31 @@ The pipeline automatically generates summary plots under the `outputs/` director
 
 ### Performance Summary
 
-![Performance Summary](outputs/Performance%20Summary%20Across%20All%20Drives.png)
+![Performance Summary](outputs/Performance_Summary_Across_All_Drives.png)
 
 ---
 
 ### Trajectory Error Across Drives
 
-![Trajectory Error](outputs/All%20drives%20error.png)
+![Trajectory Error](outputs/All_drives_error.png)
 
 ---
 
 ### ICP Fitness per Drive
 
-![ICP Fitness](outputs/ICP%20Fitness%20per%20Drive.png)
+![ICP Fitness](outputs/ICP_Fitness_per_Drive.png)
 
 ---
 
 ### Per-frame Position Error vs GPS
 
-![Position Error](outputs/per_frame%20position%20error%20vs%20GPS.png)
+![Position Error](outputs/Performance Summary Across All Drives.png)
 
 ---
 
 ### Velocity Profile
 
-![Velocity](outputs/velocity%20plot.png)
+![Velocity](outputs/velocity_plot.png)
 
 ---
 
