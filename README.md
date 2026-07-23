@@ -289,37 +289,33 @@ Results vary slightly depending on:
 
 The pipeline automatically generates summary plots under the `outputs/` directory after running the multi-drive benchmark.
 
-### Performance Summary
+### Performance Summary Across All Drives
 
-![Performance Summary](C:\Users\ATHARVA\OneDrive\Pictures\Documents\Sunny\sensor_fusion\outputs\All drives error.png)
+![Performance Summary](outputs/Performance%20Summary%20Across%20All%20Drives.png)
 
 ---
 
-### Trajectory Error Across Drives
+### Trajectory Error Across All Drives
 
-![Trajectory Error](C:\Users\ATHARVA\OneDrive\Pictures\Documents\Sunny\sensor_fusion\outputs\All drives error.png)
+![Trajectory Error](outputs/All%20drives%20error.png)
 
 ---
 
 ### ICP Fitness per Drive
 
-![ICP Fitness](C:\Users\ATHARVA\OneDrive\Pictures\Documents\Sunny\sensor_fusion\outputs\ICP Fitness per Drive.png)
+![ICP Fitness](outputs/ICP%20Fitness%20per%20Drive.png)
 
 ---
 
 ### Per-frame Position Error vs GPS
 
-![Position Error](C:\Users\ATHARVA\OneDrive\Pictures\Documents\Sunny\sensor_fusion\outputs\per_frame position error vs GPS.png)
+![Position Error](outputs/per_frame%20position%20error%20vs%20GPS.png)
 
 ---
 
 ### Velocity Profile
 
-![Velocity]("C:\Users\ATHARVA\OneDrive\Pictures\Documents\Sunny\sensor_fusion\outputs\velocity plot.png")
-
----
-
-# Project Structure
+![Velocity Profile](outputs/velocity%20plot.png)
 
 # Project Structure
 
