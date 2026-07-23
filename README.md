@@ -267,7 +267,6 @@ src/pipeline.py
 | `LIDAR_NOISE_*` | tuned | Adaptive LiDAR covariance |
 
 ---
-
 # Example Results
 
 Evaluation uses OXTS GPS XY as the reference trajectory.
@@ -284,9 +283,43 @@ Results vary slightly depending on:
 - ICP tuning
 - EKF noise parameters
 
-Additional plots are generated under `outputs/`.
+---
+
+# Result Visualizations
+
+The pipeline automatically generates summary plots under the `outputs/` directory after running the multi-drive benchmark.
+
+### Performance Summary
+
+![Performance Summary](outputs/Performance%20Summary%20Across%20All%20Drives.png)
 
 ---
+
+### Trajectory Error Across Drives
+
+![Trajectory Error](outputs/All%20drives%20error.png)
+
+---
+
+### ICP Fitness per Drive
+
+![ICP Fitness](outputs/ICP%20Fitness%20per%20Drive.png)
+
+---
+
+### Per-frame Position Error vs GPS
+
+![Position Error](outputs/per_frame%20position%20error%20vs%20GPS.png)
+
+---
+
+### Velocity Profile
+
+![Velocity](outputs/velocity%20plot.png)
+
+---
+
+# Project Structure
 
 # Project Structure
 
