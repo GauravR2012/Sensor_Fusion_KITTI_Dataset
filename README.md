@@ -345,6 +345,22 @@ The pipeline automatically generates summary plots under the `outputs/` director
 
 ![Velocity Profile](outputs/velocity%20plot.png)
 
+
+
+# Experimental 3D Pipeline Results
+
+The experimental 3D pipeline estimates vehicle motion in all three spatial dimensions and provides additional evaluation plots for vertical motion and 3D position accuracy.
+
+### 3D Position Error vs OXTS
+
+![3D Position Error](outputs/3d%20position%20error.png)
+
+---
+
+### Vertical Channel Comparison
+
+![3D Vertical Channel](outputs/3d%20vertical%20channel.png)
+
 # Project Structure
 
 ```text
