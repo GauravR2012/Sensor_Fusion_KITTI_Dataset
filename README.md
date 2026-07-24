@@ -4,6 +4,34 @@
 
 ---
 
+## Repository Versions
+
+This repository contains two implementations:
+
+### Stable 2D Pipeline
+
+- 2D vehicle pose estimation
+- State: `[x, y, yaw, velocity]`
+- Generalized ICP (GICP)
+- GPS + IMU + LiDAR EKF
+- Multi-drive evaluation
+
+### Experimental 3D Pipeline
+
+An extension of the project that estimates full 3D trajectories using LiDAR, GPS, and IMU.
+
+Features include:
+
+- 3D LiDAR odometry
+- 3D GPS alignment
+- 3D Extended Kalman Filter
+- Height profile evaluation
+- 3D trajectory visualization
+
+The 3D implementation is intended for experimentation and comparison with the stable 2D pipeline.
+
+---
+
 ## Overview
 
 This repository implements a complete sensor fusion pipeline that combines:
