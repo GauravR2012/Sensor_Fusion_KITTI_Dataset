@@ -1,0 +1,19 @@
+import os
+WORK = os.environ.get("RAW_WORK", "/kaggle/working")
+DATA_PATH = os.environ.get("RAW_DATA_PATH", f"{WORK}/2011_10_03/2011_10_03_drive_0047_sync")
+CALIB_ROOT = os.environ.get("RAW_CALIB_ROOT", f"{WORK}/2011_10_03")
+MAX_FRAMES = None
+OUTPUT_DIR = os.environ.get("OUTPUT_DIR", "outputs/track_c")
+SHOW_PLOTS = True
+RANGE_LIMIT = 80.0
+VOXEL_SIZE = 0.50
+ICP_MAX_DIST = 2.5
+ICP_MIN_PAIRS = 800
+ICP_ITERS = 15
+ICP_MIN_FITNESS = 0.15
+MIN_PNP_INLIERS = 40
+MAX_LANDMARKS = 3000
+NN_THRESH_PX = 3.0
+PNP_REPROJ_ERR = 2.0
+LIDAR_WEIGHT_SCALE = 1.0
+VO_WEIGHT_SCALE = 1.0
