@@ -549,16 +549,19 @@ RAW_CALIB_ROOT = "/kaggle/working/2011_10_03"
 
 ---
 
-## Track C — Visualizations
+## Track C — Visualizations (from notebook)
 
-### GPS-aided EKF trajectory
+### GPS-aided EKF — full 837 frames (Cell 16, Run C)
 
-![Track C — GPS+IMU aided](outputs/track_c/aided_trajectory.png)
+![Track C — GPS+IMU aided ~0.17 m ATE](outputs/track_c/aided_trajectory.png)
 
-### GPS-denied LiDAR + VO odometry
+### GPS-denied IMU + LiDAR + Stereo VO (Cell 20)
 
-![Track C — Odom mode](outputs/track_c/odom_trajectory.png)
+![Track C — No-GPS odometry ~28 m ATE](outputs/track_c/odom_trajectory.png)
 
+### Optional — open-loop VO + LiDAR baseline (Cell 13, auto-saved)
+
+![Track C — Phase 1–4 open-loop fusion](outputs/track_c/phase14_openloop.png)
 ---
 
 # Installation
