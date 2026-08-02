@@ -1,0 +1,30 @@
+kitti_player:
+  ros__parameters:
+    # REQUIRED: absolute path to a single KITTI Raw drive folder, e.g.
+    # /home/you/data/kitti/2011_10_03/2011_10_03_drive_0047_sync
+    dataset_path: "/mnt/50BE87BDBE879A5C/2011_10_03/2011_10_03_drive_0047_sync"
+
+    # 1.0 = real-time playback, 2.0 = 2x speed, 0.5 = half speed
+    playback_rate: 1.0
+
+    # Loop back to the start of the drive when it ends
+    loop: false
+
+    lidar_frame_id: "velodyne"
+    imu_frame_id: "imu_link"
+
+    lidar_topic: "/velodyne_points"
+    imu_topic: "/imu/data"
+
+    # Seconds to wait after node start before publishing the first message
+    # (gives FAST-LIO / rviz time to come up and subscribe)
+    start_delay: 1.0
+
+    # Internal scheduling tick, seconds. Lower = more precise timing.
+    tick_period: 0.002
+
+    # Used to compute approximate per-point ring/time fields that
+    # FAST-LIO's Velodyne preprocessing requires. scan_lines should
+    # match FAST-LIO's scan_line config value (velodyne.yaml has 32).
+    scan_lines: 32
+    scan_rate_hz: 10.0
